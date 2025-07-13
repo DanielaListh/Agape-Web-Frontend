@@ -1293,7 +1293,7 @@ input::placeholder, textarea::placeholder {
 @media screen and (max-width: 768px) {
   
   .menu-container{
-  width: 200vw;
+  width: 85vw;
   justify-content: center;
   }
 
@@ -1426,10 +1426,10 @@ input::placeholder, textarea::placeholder {
   }
 
   /*servicios*/
-.Servicios{
-  width: 200vw;
-  margin-top: 300px;
-}
+  .content-h2{
+    width: 200vw;
+    margin-top: 600px;
+  }
 
 }
 
