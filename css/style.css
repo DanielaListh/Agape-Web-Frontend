@@ -1288,3 +1288,50 @@ input::placeholder, textarea::placeholder {
 }
 
 
+/* responsive para telefono */
+
+@media screen and (max-width: 768px) {
+  
+.menu-container{
+background-color: #ebf1f5;
+width: 200vw;
+justify-content: center;
+}
+
+.mini-content-portada{
+
+}
+
+.content-navbar{
+  background-color: #85acd7;
+  height: 6vh;
+}
+
+.menu-icono{
+  display: block;
+  height: 3vh;
+}
+
+.navbar{
+  display: none;
+}
+
+.direccion-spot{
+  display: none;
+}
+
+/*carrusel*/
+.transparency{
+  width: 200vw;
+  height: 60vh;
+  margin: 5px;
+  padding: auto;
+}
+
+.buscador-container{
+  display: none;
+}
+
+}
+
+
