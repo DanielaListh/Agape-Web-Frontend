@@ -1428,7 +1428,7 @@ input::placeholder, textarea::placeholder {
   /*servicios*/
   .content-h2{
     width: 200vw;
-    margin-top: 600px;
+    margin-top: 400px;
   }
 
 
@@ -1444,6 +1444,7 @@ input::placeholder, textarea::placeholder {
     width: 200vw;
     padding: 0;
     margin: 0;
+    background-image: none;
   }
 
   .img-contact{
@@ -1480,12 +1481,41 @@ input::placeholder, textarea::placeholder {
 
   .contact-row textarea{
     font-size: 2.5rem;
+    width: 170vw;
   }
 
 
   .btn-ingresar{
-    font-size: 2rem;
-    height: 8vh;
+    font-size: 3rem;
+    height: 10vh;
+    width: 20vw;
+  }
+
+  /*Footer*/
+  .footer{
+    margin-top: 250px;
+    width: 200vw;
+    height: 70vh;
+  }
+
+  .list-footer{
+    display: block;
+    justify-items: center;
+    margin: 0;
+    padding: 0;
+    width: 200vw;
+  }
+
+  .redes{
+    width: 200vw;
+    display: block;
+    justify-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .redes h3{
+    margin: 0;
   }
 
 }
