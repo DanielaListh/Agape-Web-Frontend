@@ -1306,7 +1306,9 @@ input::placeholder, textarea::placeholder {
   }
 
   .contain-button-indice a{
-  font-size: 1rem;
+    font-size: 1.2rem;  
+    padding: 0;
+    margin: 0;
   }
 
   .content-navbar{
@@ -1316,7 +1318,7 @@ input::placeholder, textarea::placeholder {
 
   .menu-icono{
     display: block;
-    height: 3vh;
+    height: 5vh;
   }
 
   .navbar{
@@ -1329,28 +1331,28 @@ input::placeholder, textarea::placeholder {
 
   /*carrusel*/
   .Content-Carousel{
-    margin-top: 1px;
+    margin-top: 5px;
     width: 197vw;
-    height: 70vh;
+    height: 90vh;
     background-image: none;
   }
 
   .transparency{
     width: auto;
-    height: auto;
+    height: 90vh;
     margin: 5px;
-    padding: auto;
+    padding: 0;
   }
 
   .carousel{
     width: 195vw;
-    height: 70vh;
+    height: 90vh;
     padding: 0;
     margin: 0;
   }
 
   .carousel-images img{
-    height: 70vh;
+    height: 90vh;
   }
 
   .tittle{
@@ -1376,6 +1378,15 @@ input::placeholder, textarea::placeholder {
     width: 200vw;
   }
 
+  .sobre-nosotros h2{
+    font-size: 3rem;
+    margin: 0;
+  }
+
+  .sobre-nosotros h3{
+    font-size: 2rem;
+  }
+
 
   /*Nuestra historia*/
   .historia{
@@ -1393,11 +1404,32 @@ input::placeholder, textarea::placeholder {
     display: block;
   }
 
-  .historia-content-img{
-    width: auto;
-    margin: 0;
-    padding: 0;
+  .historia-content img{
+    display: none;
   }
+
+  .historia-content{
+    padding-left: 60px;
+  }
+
+  .historia-content h2{
+    font-size: 3rem;
+  }
+
+  #p1,
+  #p2 {
+    font-size: 2rem;
+  }
+
+  .historia-content-content p{
+    font-size: 1.3rem;
+  }
+
+  /*servicios*/
+.Servicios{
+  width: 200vw;
+  margin-top: 300px;
+}
 
 }
 
