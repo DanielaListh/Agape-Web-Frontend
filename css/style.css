@@ -1292,45 +1292,112 @@ input::placeholder, textarea::placeholder {
 
 @media screen and (max-width: 768px) {
   
-.menu-container{
-background-color: #ebf1f5;
-width: 200vw;
-justify-content: center;
-}
-
-.mini-content-portada{
-
-}
-
-.content-navbar{
-  background-color: #85acd7;
-  height: 6vh;
-}
-
-.menu-icono{
-  display: block;
-  height: 3vh;
-}
-
-.navbar{
-  display: none;
-}
-
-.direccion-spot{
-  display: none;
-}
-
-/*carrusel*/
-.transparency{
+  .menu-container{
   width: 200vw;
-  height: 60vh;
-  margin: 5px;
-  padding: auto;
-}
+  justify-content: center;
+  }
 
-.buscador-container{
-  display: none;
-}
+  .mini-content-portada{
+  height: 20vh;
+  }
+
+  .isotipo{
+    width: 40vw;
+  }
+
+  .contain-button-indice a{
+  font-size: 1rem;
+  }
+
+  .content-navbar{
+    background-color: #85acd7;
+    height: 10vh;
+  }
+
+  .menu-icono{
+    display: block;
+    height: 3vh;
+  }
+
+  .navbar{
+    display: none;
+  }
+
+  .direccion-spot{
+    display: none;
+  }
+
+  /*carrusel*/
+  .Content-Carousel{
+    margin-top: 1px;
+    width: 197vw;
+    height: 70vh;
+    background-image: none;
+  }
+
+  .transparency{
+    width: auto;
+    height: auto;
+    margin: 5px;
+    padding: auto;
+  }
+
+  .carousel{
+    width: 195vw;
+    height: 70vh;
+    padding: 0;
+    margin: 0;
+  }
+
+  .carousel-images img{
+    height: 70vh;
+  }
+
+  .tittle{
+    margin-top: 440px;
+    margin-left: -70px;
+  }
+
+  .btn-info h2{
+    display: none;
+  }
+
+  .btn-info button{
+    margin-top: 250px;
+    margin-right: -40px;
+  }
+
+  .buscador-container{
+    display: none;
+  }
+
+  /*Notitas*/
+  .sobre-nosotros{
+    width: 200vw;
+  }
+
+
+  /*Nuestra historia*/
+  .historia{
+    width: 200vw;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .historia-transparency{
+    width: auto;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+
+  .historia-content-img{
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
 
 }
 
