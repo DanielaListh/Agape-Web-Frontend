@@ -1431,6 +1431,61 @@ input::placeholder, textarea::placeholder {
     margin-top: 600px;
   }
 
+
+  /*logows*/
+  .logo-ws{
+    height: 100px;
+    width: 100px;
+  }
+
+
+  /*contacto form*/
+  .container-contacto{
+    width: 200vw;
+    background-color: #868686;
+  }
+
+  .img-contact{
+    display: none;
+  }
+
+  .contact{
+    width: 200vw;
+    height: 100vh;
+  }
+
+  .contact p{
+    font-size: 2rem;
+  }
+
+  .contact h2{
+    font-size: 3rem;
+  }
+
+  .contact-form{
+    width: 200vw;
+  }
+
+  .contact-row{
+    justify-content: center;
+    width: 200vw;
+    padding: 15px;
+  }
+
+  .contact-row input{
+    font-size: 2rem;
+  }
+
+  .contact-row textarea{
+    font-size: 2rem;
+  }
+
+
+  .btn-ingresar{
+    font-size: 2rem;
+    height: 8vh;
+  }
+
 }
 
 
