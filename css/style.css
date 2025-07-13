@@ -1393,7 +1393,7 @@ input::placeholder, textarea::placeholder {
     width: 200vw;
     justify-content: center;
     align-items: center;
-    margin: 0;
+    margin: 150px 0;
     padding: 0;
   }
 
@@ -1426,16 +1426,24 @@ input::placeholder, textarea::placeholder {
   }
 
   /*servicios*/
+  .Servicios{
+    margin: 100px 0;
+  }
+
   .content-h2{
     width: 200vw;
     margin-top: 400px;
   }
 
+  .Servicios-Container{
+    margin: 100px 0;
+  }
+
 
   /*logows*/
   .logo-ws{
-    height: 130px;
-    width: 130px;
+    height: 100px;
+    width: 100px;
   }
 
 
@@ -1477,11 +1485,20 @@ input::placeholder, textarea::placeholder {
   .contact-row input{
     font-size: 2.5rem;
     width: 170vw;
+    margin-top: 20px;
+  }
+
+  .contact-row input::placeholder{
+    font-size: 2.5rem;
   }
 
   .contact-row textarea{
     font-size: 2.5rem;
     width: 170vw;
+  }
+
+  .contact-row textarea::placeholder{
+    font-size: 2.5rem;
   }
 
 
@@ -1506,6 +1523,14 @@ input::placeholder, textarea::placeholder {
     width: 200vw;
   }
 
+  .list-footer h3{
+    font-size: 2rem;
+  }
+
+  .list-footer a{
+    font-size: 1.5rem;
+  }
+
   .redes{
     width: 200vw;
     display: block;
@@ -1515,7 +1540,12 @@ input::placeholder, textarea::placeholder {
   }
 
   .redes h3{
+    font-size: 2rem;
     margin: 0;
+  }
+
+  .derechos-reservados{
+    font-size: 1.5rem;
   }
 
 }
