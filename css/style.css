@@ -1316,6 +1316,7 @@ input::placeholder, textarea::placeholder {
     height: 10vh;
   }
 
+  /*Menu tipo hamburgesa*/
   .menu-icono{
     display: block;
     height: 5vh;
@@ -1323,6 +1324,10 @@ input::placeholder, textarea::placeholder {
 
   .navbar{
     display: none;
+  }
+
+  .nav-links.active{
+    display: flex;
   }
 
   .direccion-spot{
